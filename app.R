@@ -1576,7 +1576,7 @@ ui <- navbarPage(
                        selectInput("country", "Country", choices = unique(result$country)),
                        sliderInput("age", "Age", min = 1, max = 100, value = 25, step = 1),
                        actionButton("run_globe", "Search Destination", icon = icon("globe"), class = "btn btn-success"),
-                       actionButton("reset", "Reset Application", icon = icon("refresh"), class = "btn btn-success")
+                       actionButton("reset", "Reset", icon = icon("refresh"), class = "btn btn-success")
                      )
                    ),
                    h5("Recommendations per continent:", style = "text-decoration: underline; font-weight: bold;"),
