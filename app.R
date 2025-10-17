@@ -1,5 +1,5 @@
 # --------------------------------------------------------------
-# Load required packages
+# Load required packages fron CRAM
 # --------------------------------------------------------------
 library(dplyr)           # Data manipulation
 library(countrycode)     # Country code conversion
